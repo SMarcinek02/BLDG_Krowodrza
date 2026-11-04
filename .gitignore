@@ -232,3 +232,4 @@ outputs2/
 data/
 misc/
 *.pt
+.vscode/
