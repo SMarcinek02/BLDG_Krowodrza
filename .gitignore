@@ -225,7 +225,12 @@ __marimo__/
 __pycache__/
 *.py[cod]
 .venv/
-outputs/
+outputs/**
+!outputs/**/
+!outputs/**/*.json
+!outputs/**/*.csv
+!outputs/**/*.gpkg
+!outputs/**/*.png
 outputs_w/
 outputs0/
 outputs2/
